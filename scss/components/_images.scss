@@ -1,7 +1,6 @@
 .img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include img-display (block, auto, auto)
+  
   margin-top: 10px;
   max-width: 100%; 
   max-height: 100%;
@@ -9,9 +8,8 @@
 }
 
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    @include img-display (block, auto, auto);
+  
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
@@ -19,8 +17,7 @@
 }
 
 .img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    @include img-display (block, auto, auto);
+  
 }
 
